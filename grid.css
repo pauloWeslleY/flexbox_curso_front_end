@@ -1,0 +1,34 @@
+/*
+   === === === === === ==>
+   fixme |> Grid Layout
+   <== === === === === ===
+*/
+
+#main__first {
+	display: grid;
+	grid-template-areas:
+		'header header'
+		'menu   menu'
+		'content aside'
+		'footer footer';
+}
+.header__nav {
+	background-color: #e24f4f;
+	grid-area: header;
+}
+.menu {
+	background-color: #ecd611;
+	grid-area: menu;
+}
+.content {
+	background-color: #0fd;
+	grid-area: content;
+}
+.content__secondary {
+	background-color: #00a566;
+	grid-area: aside;
+}
+.footer {
+	background-color: grey;
+	grid-area: footer;
+}
