@@ -20,9 +20,11 @@
 
 .items:nth-child(1) {
 	flex-grow: 1;
+	order: 2;
 }
 .items:nth-child(2) {
 	flex-shrink: 3;
+	order: 1;
 }
 .items:nth-child(3) {
 	flex-grow: 1;
