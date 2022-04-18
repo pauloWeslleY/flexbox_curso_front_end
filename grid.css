@@ -45,9 +45,10 @@
 	grid-column-start: 1;
 	grid-column-end: 4; */
 
-	align-self: stretch;
+	/* align-self: center;
+	justify-self: center; */
 
-	justify-self: stretch;
+	place-self: center;
 }
 .content__secondary {
 	background-color: #00a566;
