@@ -11,6 +11,9 @@
 		'menu   menu'
 		'content aside'
 		'footer footer';
+
+	grid-template-rows: 20px 30px 200px 20px;
+	grid-template-columns: repeat(2, 1fr);
 }
 .header__nav {
 	background-color: #e24f4f;
