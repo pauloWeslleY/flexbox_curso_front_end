@@ -46,6 +46,8 @@
 	grid-column-end: 4; */
 
 	align-self: stretch;
+
+	justify-self: stretch;
 }
 .content__secondary {
 	background-color: #00a566;
